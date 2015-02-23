@@ -1,5 +1,5 @@
 {
-  "name": "docker-run",
+  "name": "@lsq/docker-run",
   "version": "2.0.0",
   "description": "Start a docker image and attach to it",
   "main": "index.js",
@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mafintosh/docker-run"
+    "url": "https://github.com/LiveSqrd/docker-run"
   },
   "keywords": [
     "docker",
@@ -32,7 +32,7 @@
   "author": "Mathias Buus",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mafintosh/docker-run/issues"
+    "url": "https://github.com/LiveSqrd/docker-run/issues"
   },
-  "homepage": "https://github.com/mafintosh/docker-run"
+  "homepage": "https://github.com/LiveSqrd/docker-run"
 }
