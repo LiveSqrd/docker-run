@@ -38,6 +38,7 @@ var run = function(image, opts) {
   if (opts.dns) sopts.Dns = [].concat(opts.dns)
   if (opts.entrypoint) copts.Entrypoint = [].concat(opts.entrypoint)
   if (opts.cmd) copts.Cmd = [].concat(opts.cmd)
+  if (opts.cwd) copts.WorkingDir = opts.cwd
 
   if (opts.ports) {
     Object.keys(opts.ports).forEach(function(host) {
